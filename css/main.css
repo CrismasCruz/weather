@@ -1,4 +1,120 @@
 /* ========================================
  * CSS written here will override Tachyons
  * ======================================== */
- 
+
+
+.head {
+  font-size: 100px;
+  font-family: sans-serif;
+  font: helvetica;
+  margin: 0;
+}
+.cold {
+  background-size: cover;
+  color: #ba3241;
+  background-image: url(/cold.gif);
+}
+
+.warm {
+  background-size: cover;
+  background-image: url(/warm.gif);
+  color: #cd804b;
+
+}
+
+.hot {
+  background-size: cover;
+  background-image: url(/hot.gif);
+  max-width: 100%;
+  height: auto;
+  color: #91dd71;
+}
+
+.info {
+  background-color: rgba(0, 0, 0, 0.7);
+  min-width: 300px;
+  min-height: 500px;
+  max-width: 310px;
+  padding-top: 5px;
+  margin: auto;
+
+}
+
+h2 {
+  color: white;
+  opacity: 1;
+  font-weight: 400;
+
+}
+
+
+@media screen and (max-width: 1000px) {
+    .coat {
+        font-size: 75px;
+        padding-top: 20px;
+    }
+    .top {
+        font-size: 75px;
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .coat {
+        font-size: 30px;
+        padding-top: 20px;
+    }
+    .top {
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+}
+
+.mover-container {
+  width: 100%;
+  position: relative;
+  height: 4rem;
+  margin-bottom: 40px;
+}
+
+.mover {
+  position: absolute;
+  left: 100%;
+  top: .75rem;
+  font-size: 25px;
+  font-weight: 300;
+  margin: 0;
+  animation-name: move-it;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  color: white;
+  font: helvetica;
+}
+
+@keyframes move-it {
+  0% { left: 0; }
+  100% { left: 100%; }
+}
+
+.jiggle:hover {
+  animation-name: jiggle-it;
+  animation-duration: 50ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes jiggle-it {
+  0% {
+    transform: translateX(10px)
+  }
+  100% {
+    transform: translateX(-10px)
+  }
+}
+
+.it {
+  display: block;
+  font-family: sans-serif;
+  font: helvetica;
+}
