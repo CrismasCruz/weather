@@ -1,0 +1,158 @@
+body {
+
+  background: linear-gradient(#f7cac9, #92a8d1);
+  height: 3000px;
+
+
+}
+
+.header {
+  display: block;
+  font-size: 200px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-align: center;
+  max-height: 100px;
+
+}
+
+h2 {
+
+  display: block;
+  font-size: 40px;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: 100;
+
+}
+
+
+.letters {
+display: flex;
+flex-flow: column;
+text-align: center;
+font-family: sans-serif;
+font: helvetica;
+font-size: 50pt;
+color: white;
+background-color: none;
+line-height: 10pt;
+height: 400px;
+width: 800px;
+padding: 100px;
+align-items: center;
+justify-content: center;
+border-color: white;
+border-style: solid;
+border-width: 10px;
+margin-left: 200px;
+
+}
+
+
+p.about {
+  display: flex;
+  font-size: 16px;
+  color: white;
+  font-family: sans-serif;
+  font: helvetica;
+  text-align: center;
+  text-align: justify;
+  width: 1020px;
+  margin-left: 200px;
+  font-style: italic;
+  align-self: center;
+
+}
+
+.both {
+  display: flex;
+  align-items: left;
+  justify-content: flex-start;
+  margin-left: 100px;
+
+}
+
+img {
+ display: flex;
+ flex-flow: column;
+ align-items: center;
+ width: 600px;
+ height: 600px;
+
+}
+
+.characteristics {
+
+  height: 600px;
+  margin-top: 300px;
+
+}
+
+h3 {
+  font-size: 25px;
+  color: white;
+  font-family: sans-serif;
+  font: helvetica;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-style: oblique;
+
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  color: white;
+  font-family: sans-serif;
+  font: helvetica;
+
+}
+
+.subway_both {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 300px;
+
+
+}
+
+
+.subway_text {
+  display: flex;
+  font-size: 16px;
+  color: white;
+  font-family: sans-serif;
+  font: helvetica;
+  width: 300px;
+
+
+
+
+}
+.subway {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: block;
+  font-size: 200px;
+  font-family: sans-serif;
+  font-weight: 600;
+  height: 300px;
+  width: 300px;
+  line-height: 300px;
+
+  border-radius: 150px;
+
+  background-color: white;
+  color: #92a8d1;
+  text-align: center;
+
+  margin-left: 200px;
+
+
+
+}

@@ -1,0 +1,51 @@
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:250px;
+  height: 150px;
+  background: #92a8d1;
+  transition: background-color 0.5s ease;
+}
+.box:hover {
+  background-color: #f7cac9;
+}
+
+.text {
+  font-size: 30px;
+  font-family: sans-serif;
+  font: helvetica;
+  color: white;
+  font-kerning: normal;
+}
+
+.rage {
+
+  padding-left: 80px;
+  padding-top: 100px;
+  font-size: 30px;
+    font-family: sans-serif;
+    font: helvetica;
+    color: #92a8d1;
+    font-kerning: normal;
+    transition: color 0.5s ease;
+
+}
+
+.rage:hover {
+  animation-name: raging;
+  animation-duration: 50ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  color: #f7cac9;
+}
+
+@keyframes raging {
+  0% {
+    transform: translateX(10px)
+  }
+  100% {
+    transform: translateX(-10px)
+  }
+}

@@ -1,0 +1,25 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+
+
+
+.month {
+  display: block;
+}
+
+
+.date {
+  display: block;
+  padding-bottom: 20px;
+}
+
+
+.header {
+  max-height: 190px;
+}
+
+p {
+  font: helvetica;
+  font-size: 10;
+}

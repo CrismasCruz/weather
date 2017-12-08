@@ -1,0 +1,115 @@
+body {
+  margin-top: 100px;
+  background-color: #292929;
+}
+
+h1 {
+  color: #292929;
+  font-size: 71px;
+  text-transform: uppercase;
+  font: Helvetica;
+  font-family: sans-serif;
+  background-color: #dab19b;
+  position: fixed;
+  top: 0px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  width: 1500px;
+  text-align: center;
+}
+
+.bread {
+  display: flex;
+  margin: 50px;
+  width: 1000px;
+}
+
+p {
+  color: white;
+  font-family: sans-serif;
+  font: Helvetica;
+  font-size: 14px;
+  padding: 30px;
+  text-align: justify;
+  margin-right: 30px;
+}
+
+.sanfran {
+  font-style: italic;
+}
+
+.themap {
+  width: 400px;
+  height: 400px;
+  margin-left: 220px;
+  margin-top: 45px;
+}
+
+.MapText {
+  display: flex;
+  padding-left: : 150px;
+  padding-right: 150px;
+  margin-bottom: 100px;
+}
+
+h2 {
+  color: #292929;
+  font-size: 35px;
+  text-transform: uppercase;
+  font: Helvetica;
+  font-family: sans-serif;
+  font-style: italic;
+  background-color: #dab19b;
+  width: 1000px;
+  padding-left: 10px;
+}
+
+h3 {
+  color: #dab19b;
+  font-size: 20px;
+  font: Helvetica;
+  font-family: sans-serif;
+}
+
+ul {
+  color: white;
+  font-size: 14px;
+  font: Helvetica;
+  font-family: sans-serif;
+}
+
+ol {
+  color: white;
+  font-size: 14px;
+  font: Helvetica;
+  font-family: sans-serif;
+  padding-bottom: 100px;
+  text-align: justify;
+}
+
+OL li {
+  padding-top: 20px;
+}
+
+UL li {
+  padding-top: 10px;
+}
+
+h4 {
+  color: white;
+  font-size: 16px;
+  font: Helvetica;
+  font-family: sans-serif;
+}
+
+.TOP {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.recipe {
+  display: block;
+  padding-left: 200px;
+  padding-right: 200px;
+}
